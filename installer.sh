@@ -1,6 +1,5 @@
 #!/bin/bash
-# Author: drak3hft7
-# Date: 08/09/2021
+# Author: tonysec
 
 # Check if the script is executed with root privileges
 if [ "${UID}" -eq 0 ]; then
@@ -175,3 +174,4 @@ sleep 1.5
 
 #Droopescan
 echo -e "\e[93m\e[1m----> Installing
+gem install droopescan
